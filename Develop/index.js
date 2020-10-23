@@ -35,7 +35,7 @@ const questions = [
   default: "node index.js",
 },
 {
-  message: "Who are the contributors and what are thier github account name? List with commas.",
+  message: "What are the githubs of the contributors? List with commas.",
   type: "input",
   name: "contributors",
   default: "",

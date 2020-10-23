@@ -65,6 +65,8 @@ function generateMarkdown(data) {
   console.log(contributorArray);
   let markdown = `
   ${data.badges}
+##Video Walk Through
+https://drive.google.com/file/d/1R3oJRKysXyQ-RlN56S7lfwqu29aq8Rwt/view
 ## Description
 ${data.description}
 ## Table of Contents
@@ -72,6 +74,7 @@ ${data.description}
 * [Licence](#licence)
 * [Contributors](#contributors)
 * [Tests](#tests)
+* [Repo](#repository)
 * [Run](#run)
 * [Future Contributors](#future-contributors)
 ## Installation
@@ -90,12 +93,13 @@ ${data.licence}
   markdown += `###Third-Party-Assets\n`;
   for (var i = 0; i <= thirdPartyAssets.length; i++) {
     if (thirdPartyAssets[i] !== undefined) {
-      markdown += `* [link](${thirdPartyAssets[i].trim()})\n`;
+      markdown += `* [${thirdPartyAssets[i]}](https://${thirdPartyAssets[i].trim()})\n`;
     }
   }
-  markdown += `## Tests
+  markdown += `## Tests\n
 ${data.tests}`;
-  markdown += `
+  markdown +=`
+## Repositiory\n https://github.com/${data.github}/${data.repo}
 ## Run
 ${data.run}
 ## Future-Contributors
