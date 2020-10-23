@@ -1,9 +1,12 @@
 
-  
+  ![issues badge](https://img.shields.io/github/issues/kimmulligan/readme)
+    ![forks badge](https://img.shields.io/github/forks/kimmulligan/readme)
+    ![stars badge](https://img.shields.io/github/stars/kimmulligan/readme)
+    ![licence badge](https://img.shields.io/github/licence/kimmulligan/readme)
 ##Video Walk Through
 https://drive.google.com/file/d/1R3oJRKysXyQ-RlN56S7lfwqu29aq8Rwt/view
 ## Description
-df
+This app allows a user to quickly create a professional README from the command line. 
 ## Table of Contents
 * [Installation](#installation)
 * [Licence](#licence)
@@ -15,16 +18,18 @@ df
 ## Installation
 npm install
 ## Licence
-MIT licence
+Apache licence 2.0
 ## Contributors
-* [](https://github.com/)
+* [kimmulligan](https://github.com/kimmulligan)
+* [ rs](https://github.com/rs)
 ###Third-Party-Assets
-* [](https://)
+* [target.com](https://target.com)
+* [ amazon.com](https://amazon.com)
 ## Tests
 
 npm test
 ## Repositiory
- https://github.com//
+ https://github.com/kimmulligan/readme
 ## Run
 node index.js
 ## Future-Contributors
