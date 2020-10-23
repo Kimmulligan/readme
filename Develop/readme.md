@@ -6,7 +6,7 @@
 ##Video Walk Through
 https://drive.google.com/file/d/1R3oJRKysXyQ-RlN56S7lfwqu29aq8Rwt/view
 ## Description
-This app allows a user to quickly create a professional README from the command line. 
+This app allows a user to quickly generate a professional README from the command line.
 ## Table of Contents
 * [Installation](#installation)
 * [Licence](#licence)
